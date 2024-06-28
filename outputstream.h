@@ -29,7 +29,7 @@
 static bool __zng_use_colors;
 
 __attribute__((constructor))
-static void __zng_outputstream_initialize() {
+static void __zng_outputstream_initialize(void) {
   __zng_use_colors = isatty(STDOUT_FILENO)
                   && getenv("NO_COLOR") == NULL
                   && getenv("TERM") != NULL;
