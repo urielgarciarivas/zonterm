@@ -1,2 +1,2 @@
 # zonterminal
-A C bash-output framework. Printing with colors is exciting.
+A C library to print to the terminal. Printing with colors is exciting.
